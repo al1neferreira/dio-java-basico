@@ -4,11 +4,17 @@ public class TestaCondicional {
         
         System.out.println("Testando condicionais");
 
-        int idade = 20;
+        int idade = 16;
         if (idade >= 18){
             System.out.println("você tem mais de 18 anos");
             System.out.println("seja bem-vindo");
+            
+        } else {
+            System.out.println("Infelizmente você não pode entrar");      
+
         }
+
+
         
     }
 }
