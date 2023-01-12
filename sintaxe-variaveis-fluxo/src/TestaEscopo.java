@@ -9,12 +9,15 @@ public class TestaEscopo {
 
         if (quantidadePessoas >=2) {
             acompanhado = true;
-
         } else {
             acompanhado = false;
         }
 
         System.out.println("valor de acompanhado = "+ acompanhado);
+
+        if (idade>=18 && acompanhado) {
+
+        }
     }
 
 
