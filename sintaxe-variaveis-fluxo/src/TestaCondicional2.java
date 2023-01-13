@@ -4,18 +4,16 @@ public class TestaCondicional2 {
 
         System.out.println("Testando Condicionais");
 
-        int idade = 16;
+        int idade = 20;
         int quantidadePessoas = 3;
+        boolean acompanhado = quantidadePessoas >= 2;
 
-        if (idade >= 18) {
-            System.out.println("você tem mais de 18 anos");
-            System.out.println("seja bem vindo");
+        System.out.println("Valor de acompanhado = " + acompanhado);
+
+        if (idade >= 18 && acompanhado) {
+            System.out.println("Seja bem-vindo!");
         } else {
-            if(quantidadePessoas >= 2) {
-                System.out.println("você não tem 18, mas " + "pode entrar, pois está acompanhado");
-            } else {
             System.out.println("infelizmente você não pode entrar");
-            }
         }
     }
 }
